@@ -1,0 +1,31 @@
+/* GENERAL SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #faf7f5;
+  color: #1e1b1d;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 4%;
+  background: #ffffff;
+  box-shadow: 0 3px 12px rgba(122, 28, 46, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
